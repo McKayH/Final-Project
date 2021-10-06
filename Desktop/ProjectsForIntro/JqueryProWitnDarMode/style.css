@@ -1,0 +1,86 @@
+html, head, body, h1, p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    height: 100%;
+    
+}
+#Background{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.darkmode{
+    color: #fff;
+    background-color: #222;
+
+}
+.darkmode #smallBorder{
+    border-bottom: 1px solid #ccc;
+}
+.darkmode #theButton{
+    border: 1px solid #777;
+    background-color: #333;
+}
+.darkmode .item{
+    background-color: #333;
+}
+#page{
+    width: fit-content;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+
+}
+#theProducts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.item{
+    padding: 5px;
+    margin: 10px 0;
+    width: 750px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #444;
+}
+.price{
+    width: 33%;
+    display: flex;
+    justify-self: start;
+}
+.name{
+    width: 33%;
+    display: flex;
+    justify-self: start;
+}
+.details{
+    width: 33%;
+    display: flex;
+    justify-self: start;
+}
+header{
+    display: flex;
+    align-self: start;
+}
+#smallBorder{
+    border-bottom: 1px solid #000;
+}
+#toggle
+{
+    width: 100%;
+    display: flex;
+    align-items: start;
+}
+#theButton{
+    padding: 5px;
+    border: 1px solid #000;
+}
