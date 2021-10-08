@@ -1,0 +1,117 @@
+html, head, body, h1, input {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+#page{
+    height: 100%;
+    width: 90%;
+    background-color: #ccc;
+    box-shadow: 1px 1px #aaa;
+    overflow-y: auto;
+}
+#topic{
+    width: 90%;
+    background-color: #fff;
+    position: fixed;
+    
+    
+}
+#topic h1{
+    font-weight:normal;
+    margin: 0 10px;
+   padding-bottom: 10px;
+
+}
+#firstUserName{
+    padding: 10px;
+}
+#commentAdding{
+    width: 90%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    
+}
+#insideFixedCommenting{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 20px ;
+}
+#commentingBar{
+    border: 1px solid #444;
+    width: 70%;
+}
+#theNameDisplay{
+    padding: 5px;
+    width: 85px;
+    border: 1px solid #444;
+}
+#submitButton{
+   text-align: center;
+   margin: auto 0;
+   color: #5555ff;
+}
+#theComments{
+    height: inherit;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+
+    width: 90%;
+    background-color: #ddd;
+    display:flex;
+    flex-flow: column;
+    margin-bottom: 10px;
+}
+.insideCon{
+    display: flex;
+    margin: 10px 0;
+}
+
+.insideCon .Editing{
+    margin-left: auto;
+}
+.insideCon .delete{
+    margin: 0 10px;
+}
+.Editing{
+    color: #5555ff;
+    font-size: 12px;
+}
+.delete{
+    color: #5555ff;
+    font-size: 12px;
+}
+.theImageForUser{
+    max-width: 50px;
+    max-height: 50px;
+}
+.name{
+    font-size: 12px;
+}
+.comment{
+    font-size: 20px;
+    font-weight: bold;;
+}
+.Editor{
+    margin-top: auto;
+}
+.enterEdit{
+    text-align: center;
+    margin-top: auto;
+}
+
